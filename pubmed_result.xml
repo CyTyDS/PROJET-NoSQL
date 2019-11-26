@@ -1,0 +1,336 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31764077</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>11</Month>
+            <Day>25</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1473-5571</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Nov</Month>
+                        <Day>14</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>AIDS (London, England)</Title>
+                <ISOAbbreviation>AIDS</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Genotypic resistance profiles of HIV-2 infected patients from Cape Verde failing first-line antiretroviral therapy.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1097/QAD.0000000000002431</ELocationID>
+            <Abstract>
+                <AbstractText>: The pol gene from HIV-2 infected patients from Cape Verde experiencing virologic failure was sequenced and drug resistance mutations were determined. Most patients were taking a first line regimen of AZT, 3TC and LPV/r. Resistance mutations were found in most patients (11/17, 64.7%) especially I82F (4/7, 57.1%) and M184 V (10/17, 58.8%). Resistance to all reverse transcriptase and protease inhibitors was found in 58.8% (10/17) of the patients. Integrase inhibitors are warranted to treat these patients.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Moranguinho</LastName>
+                    <ForeName>Inês</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Institute for Medicines (iMed.ULisboa), Faculdade de Farmácia, Universidade de Lisboa, Avenida Professor Gama Pinto, 1649-003, Lisboa, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Borrego</LastName>
+                    <ForeName>Pedro</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Institute for Medicines (iMed.ULisboa), Faculdade de Farmácia, Universidade de Lisboa, Avenida Professor Gama Pinto, 1649-003, Lisboa, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Centro de Administração e Políticas (CAPP), Instituto Superior de Ciências Sociais e Políticas (ISCSP) da Universidade de Lisboa, Rua Almerindo Lessa, 1300-663, Lisboa, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gonçalves</LastName>
+                    <ForeName>Fátima</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratório de Biologia Molecular, Serviço de Patologia Clínica, Centro Hospitalar Lisboa Ocidental - Hospital de Egas Moniz, Rua da Junqueira, n° 126 1349-019, Lisboa, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gomes</LastName>
+                    <ForeName>Perpétua</ForeName>
+                    <Initials>P</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Laboratório de Biologia Molecular, Serviço de Patologia Clínica, Centro Hospitalar Lisboa Ocidental - Hospital de Egas Moniz, Rua da Junqueira, n° 126 1349-019, Lisboa, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Centro de Investigação Interdisciplinar Egas Moniz (CiiEM). Instituto Universitário Egas Moniz (IUEM), Quinta da Granja 2829 - 511 Caparica Monte de Caparica, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Rocha</LastName>
+                    <ForeName>José</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Núcleo de Apoio Técnico, Programa de Luta contra as Doenças de Transmissão Sexual, incluindo VIH/Sida, Cabo Verde.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Barreto</LastName>
+                    <ForeName>Jorge</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Coordenador, Programa de Luta contra as Doenças de Transmissão Sexual, incluindo VIH/Sida, Cabo Verde.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Taveira</LastName>
+                    <ForeName>Nuno</ForeName>
+                    <Initials>N</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Research Institute for Medicines (iMed.ULisboa), Faculdade de Farmácia, Universidade de Lisboa, Avenida Professor Gama Pinto, 1649-003, Lisboa, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                    <AffiliationInfo>
+                        <Affiliation>Centro de Investigação Interdisciplinar Egas Moniz (CiiEM). Instituto Universitário Egas Moniz (IUEM), Quinta da Granja 2829 - 511 Caparica Monte de Caparica, Portugal.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>14</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>AIDS</MedlineTA>
+            <NlmUniqueID>8710219</NlmUniqueID>
+            <ISSNLinking>0269-9370</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CitationSubset>X</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31764077</ArticleId>
+            <ArticleId IdType="doi">10.1097/QAD.0000000000002431</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+        <PMID Version="1">31764066</PMID>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>11</Month>
+            <Day>25</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1473-5571</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Nov</Month>
+                        <Day>19</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>AIDS (London, England)</Title>
+                <ISOAbbreviation>AIDS</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>National HIV testing and diagnosis coverage in sub-Saharan Africa: a new modeling tool for estimating the &quot;first 90&quot; from program and survey data.</ArticleTitle>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1097/QAD.0000000000002386</ELocationID>
+            <Abstract>
+                <AbstractText Label="OBJECTIVE" NlmCategory="OBJECTIVE">HIV testing services (HTS) are a crucial component of national HIV responses. Learning one's HIV diagnosis is the entry point to accessing life-saving antiretroviral treatment and care. Recognizing the critical role of HTS, the Joint United Nations Programme on HIV/AIDS (UNAIDS) launched the 90-90-90 targets stipulating that by 2020, 90% of people living with HIV know their status, 90% of those who know their status receive antiretroviral therapy, and 90% of those on treatment have a suppressed viral load. Countries will need to regularly monitor progress on these three indicators. Estimating the proportion of people living with HIV who know their status (i.e., the &quot;first 90&quot;), however, is difficult.</AbstractText>
+                <AbstractText Label="METHODS" NlmCategory="METHODS">We developed a mathematical model (henceforth referred to as &quot;F90&quot;) that formally synthesizes population-based survey and HTS program data to estimate HIV status awareness over time. The proposed model uses country-specific HIV epidemic parameters from the standard UNAIDS Spectrum model to produce outputs that are consistent with other national HIV estimates. The F90 model provides estimates of HIV testing history, diagnosis rates, and knowledge of HIV status by age and sex. We validate the F90 model using both in-sample comparisons and out-of-sample predictions using data from three countries: Côte d'Ivoire, Malawi, and Mozambique.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">In-sample comparisons suggest that the F90 model can accurately reproduce longitudinal sex-specific trends in HIV testing. Out-of-sample predictions of the fraction of PLHIV ever tested over a 4-to-6-year time horizon are also in good agreement with empirical survey estimates. Importantly, out-of-sample predictions of HIV knowledge are consistent (i.e., within 4% points) with those of the fully calibrated model in the three countries when HTS program data are included. The F90 model's predictions of knowledge of status are higher than available self-reported HIV awareness estimates, however, suggesting -in line with previous studies- that these self-reports could be affected by non-disclosure of HIV status awareness.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">Knowledge of HIV status is a key indicator to monitor progress, identify bottlenecks, and target HIV responses. The F90 model can help countries track progress towards their &quot;first 90&quot; by leveraging surveys of HIV testing behaviors and annual HTS program data.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Maheu-Giroux</LastName>
+                    <ForeName>Mathieu</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Marsh</LastName>
+                    <ForeName>Kimberly</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>The Joint United Nations Programme on HIV/AIDS (UNAIDS), Geneva, Switzerland.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Doyle</LastName>
+                    <ForeName>Carla</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Godin</LastName>
+                    <ForeName>Arnaud</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Delaunay</LastName>
+                    <ForeName>Charlotte Lanièce</ForeName>
+                    <Initials>CL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Johnson</LastName>
+                    <ForeName>Leigh F</ForeName>
+                    <Initials>LF</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Centre for Infectious Disease Epidemiology and Research, University of Cape Town, Cape Town, South Africa.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jahn</LastName>
+                    <ForeName>Andreas</ForeName>
+                    <Initials>A</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Ministry of Health, Lilongwe, Malawi and I-TECH, Department of Global Health, University of Washington, Seattle, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Abo</LastName>
+                    <ForeName>Kouamé</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Programme national de lutte contre le Sida, Abidjan, Côte d'Ivoire.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Mbofana</LastName>
+                    <ForeName>Francisco</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>National AIDS Council, Maputo, Mozambique.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Boily</LastName>
+                    <ForeName>Marie-Claude</ForeName>
+                    <Initials>MC</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Infectious Disease Epidemiology, Imperial College London, St Mary's Hospital, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Buckeridge</LastName>
+                    <ForeName>David L</ForeName>
+                    <Initials>DL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hankins</LastName>
+                    <ForeName>Catherine</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Epidemiology, Biostatistics, and Occupational Health, McGill University, Montréal, Canada.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Eaton</LastName>
+                    <ForeName>Jeffrey W</ForeName>
+                    <Initials>JW</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Infectious Disease Epidemiology, Imperial College London, St Mary's Hospital, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>19</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>AIDS</MedlineTA>
+            <NlmUniqueID>8710219</NlmUniqueID>
+            <ISSNLinking>0269-9370</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <CitationSubset>X</CitationSubset>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>26</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>aheadofprint</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">31764066</ArticleId>
+            <ArticleId IdType="doi">10.1097/QAD.0000000000002386</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
