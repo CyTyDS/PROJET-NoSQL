@@ -1,0 +1,1034 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2019//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_190101.dtd">
+<PubmedArticleSet>
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">30601209</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>06</Month>
+            <Day>17</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>06</Month>
+            <Day>17</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1533-0311</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>41</Volume>
+                    <Issue>3</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>Mar</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>The American Journal of dermatopathology</Title>
+                <ISOAbbreviation>Am J Dermatopathol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>BRAF Inhibitor-Associated Granulomatous Dermatitis: A Report of 3 Cases.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>214-217</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1097/DAD.0000000000001276</ELocationID>
+            <Abstract>
+                <AbstractText>Cutaneous toxicities associated with BRAF inhibitor treatment in patients with metastatic melanoma have been well described. We present a rare association of granulomatous dermatitis in association with the BRAF inhibitor vemurafenib. Three patients with metastatic melanoma all presented with asymptomatic papular eruptions 8-21 months into vemurafenib therapy. Skin biopsies confirmed the diagnosis of granulomatous dermatitis. Other causes of granulomatous dermatitis including infectious agents and sarcoid were excluded. Treatment with potent topical and oral steroids improved the eruptions, but only after the cessation of vemurafenib did all 3 cases of granulomatous dermatitis completely resolve within 2 weeks. It is important to recognize that this association, unlike most other BRAF inhibitor-related skin toxicities, can occur many months after commencement of therapy and that vemurafenib treatment can be continued without clinically significant adverse effects.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Hui Ong</LastName>
+                    <ForeName>Eugene Liat</ForeName>
+                    <Initials>EL</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Dermatology Department, Chelsea Westminster Hospital, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Sinha</LastName>
+                    <ForeName>Rishika</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Dermatology Department, West Middlesex University Hospital, Middlesex, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Jmor</LastName>
+                    <ForeName>Shilan</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Oncology Department, University College Hospital London, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Fearfield</LastName>
+                    <ForeName>Louise</ForeName>
+                    <Initials>L</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Dermatology Department, Chelsea and Westminster, London, United Kingdom.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D002363">Case Reports</PublicationType>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Am J Dermatopathol</MedlineTA>
+            <NlmUniqueID>7911005</NlmUniqueID>
+            <ISSNLinking>0193-1091</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000970">Antineoplastic Agents</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D047428">Protein Kinase Inhibitors</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>207SMY3FQT</RegistryNumber>
+                <NameOfSubstance UI="D000077484">Vemurafenib</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.7.11.1</RegistryNumber>
+                <NameOfSubstance UI="C482119">BRAF protein, human</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 2.7.11.1</RegistryNumber>
+                <NameOfSubstance UI="D048493">Proto-Oncogene Proteins B-raf</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000970" MajorTopicYN="N">Antineoplastic Agents</DescriptorName>
+                <QualifierName UI="Q000009" MajorTopicYN="Y">adverse effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001706" MajorTopicYN="N">Biopsy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003875" MajorTopicYN="N">Drug Eruptions</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000209" MajorTopicYN="Y">etiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006099" MajorTopicYN="N">Granuloma</DescriptorName>
+                <QualifierName UI="Q000139" MajorTopicYN="Y">chemically induced</QualifierName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008545" MajorTopicYN="N">Melanoma</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName UI="Q000201" MajorTopicYN="N">enzymology</QualifierName>
+                <QualifierName UI="Q000556" MajorTopicYN="N">secondary</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D047428" MajorTopicYN="N">Protein Kinase Inhibitors</DescriptorName>
+                <QualifierName UI="Q000009" MajorTopicYN="Y">adverse effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D048493" MajorTopicYN="N">Proto-Oncogene Proteins B-raf</DescriptorName>
+                <QualifierName UI="Q000037" MajorTopicYN="Y">antagonists &amp; inhibitors</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012867" MajorTopicYN="N">Skin</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="Y">drug effects</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012878" MajorTopicYN="N">Skin Neoplasms</DescriptorName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+                <QualifierName UI="Q000201" MajorTopicYN="N">enzymology</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013997" MajorTopicYN="N">Time Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016896" MajorTopicYN="N">Treatment Outcome</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000077484" MajorTopicYN="N">Vemurafenib</DescriptorName>
+                <QualifierName UI="Q000633" MajorTopicYN="Y">toxicity</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>6</Month>
+                <Day>18</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30601209</ArticleId>
+            <ArticleId IdType="doi">10.1097/DAD.0000000000001276</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">30600719</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>26</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>08</Month>
+            <Day>26</Day>
+        </DateRevised>
+        <Article PubModel="Print-Electronic">
+            <Journal>
+                <ISSN IssnType="Electronic">1502-7686</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>79</Volume>
+                    <Issue>1-2</Issue>
+                    <PubDate>
+                        <MedlineDate>2019 Feb - Apr</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Scandinavian journal of clinical and laboratory investigation</Title>
+                <ISOAbbreviation>Scand. J. Clin. Lab. Invest.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>False negative results for eosinophils in the 00-19E (Build 5) Information Processing Unit version of automated hematology analyzer sysmex XN series.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>126-128</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1080/00365513.2018.1550669</ELocationID>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Shen</LastName>
+                    <ForeName>Yajuan</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Clinical Laboratory , Shandong Provincial Hospital Affiliated to Shandong University , Jinan , 250021 , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Qifeng</ForeName>
+                    <Initials>Q</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Clinical Laboratory , Shandong Provincial Hospital Affiliated to Shandong University , Jinan , 250021 , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Chen</LastName>
+                    <ForeName>Ruidan</ForeName>
+                    <Initials>R</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Clinical Laboratory , Shandong Provincial Hospital Affiliated to Shandong University , Jinan , 250021 , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Xixian</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Clinical Laboratory , Shandong Provincial Hospital Affiliated to Shandong University , Jinan , 250021 , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Zhang</LastName>
+                    <ForeName>Hanyue</ForeName>
+                    <Initials>H</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Clinical Laboratory , Shandong Provincial Hospital Affiliated to Shandong University , Jinan , 250021 , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Lu</LastName>
+                    <ForeName>Chao</ForeName>
+                    <Initials>C</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>a Department of Clinical Laboratory , Shandong Provincial Hospital Affiliated to Shandong University , Jinan , 250021 , China.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D002363">Case Reports</PublicationType>
+                <PublicationType UI="D016422">Letter</PublicationType>
+            </PublicationTypeList>
+            <ArticleDate DateType="Electronic">
+                <Year>2019</Year>
+                <Month>01</Month>
+                <Day>02</Day>
+            </ArticleDate>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>Scand J Clin Lab Invest</MedlineTA>
+            <NlmUniqueID>0404375</NlmUniqueID>
+            <ISSNLinking>0036-5513</ISSNLinking>
+        </MedlineJournalInfo>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D057205" MajorTopicYN="N">Automation, Laboratory</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D056486" MajorTopicYN="N">Chemical and Drug Induced Liver Injury</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D002648" MajorTopicYN="N">Child</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017449" MajorTopicYN="N">Dermatitis, Allergic Contact</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003951" MajorTopicYN="N">Diagnostic Errors</DescriptorName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D001330" MajorTopicYN="N">Electronic Data Processing</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004804" MajorTopicYN="N">Eosinophils</DescriptorName>
+                <QualifierName UI="Q000166" MajorTopicYN="Y">cytology</QualifierName>
+                <QualifierName UI="Q000276" MajorTopicYN="N">immunology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004868" MajorTopicYN="Y">Equipment Failure</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005188" MajorTopicYN="N">False Negative Reactions</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006405" MajorTopicYN="N">Hematology</DescriptorName>
+                <QualifierName UI="Q000295" MajorTopicYN="Y">instrumentation</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007958" MajorTopicYN="N">Leukocyte Count</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D011786" MajorTopicYN="N">Quality Control</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>8</Month>
+                <Day>27</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30600719</ArticleId>
+            <ArticleId IdType="doi">10.1080/00365513.2018.1550669</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">30600484</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>06</Month>
+            <Day>20</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>06</Month>
+            <Day>20</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Electronic">1179-1942</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>42</Volume>
+                    <Issue>1</Issue>
+                    <PubDate>
+                        <Year>2019</Year>
+                        <Month>01</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Drug safety</Title>
+                <ISOAbbreviation>Drug Saf</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>MADEx: A System for Detecting Medications, Adverse Drug Events, and Their Relations from Clinical Notes.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>123-133</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.1007/s40264-018-0761-0</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION">Early detection of adverse drug events (ADEs) from electronic health records is an important, challenging task to support pharmacovigilance and drug safety surveillance. A well-known challenge to use clinical text for detection of ADEs is that much of the detailed information is documented in a narrative manner. Clinical natural language processing (NLP) is the key technology to extract information from unstructured clinical text.</AbstractText>
+                <AbstractText Label="OBJECTIVE">We present a machine learning-based clinical NLP system-MADEx-for detecting medications, ADEs, and their relations from clinical notes.</AbstractText>
+                <AbstractText Label="METHODS">We developed a recurrent neural network (RNN) model using a long short-term memory (LSTM) strategy for clinical name entity recognition (NER) and compared it with baseline conditional random fields (CRFs). We also developed a modified training strategy for the RNN, which outperformed the widely used early stop strategy. For relation extraction, we compared support vector machines (SVMs) and random forests on single-sentence relations and cross-sentence relations. In addition, we developed an integrated pipeline to extract entities and relations together by combining RNNs and SVMs.</AbstractText>
+                <AbstractText Label="RESULTS">MADEx achieved the top-three best performances (F1 score of 0.8233) for clinical NER in the 2018 Medication and Adverse Drug Events (MADE1.0) challenge. The post-challenge evaluation showed that the relation extraction module and integrated pipeline (identify entity and relation together) of MADEx are comparable with the best systems developed in this challenge.</AbstractText>
+                <AbstractText Label="CONCLUSION">This study demonstrated the efficiency of deep learning methods for automatic extraction of medications, ADEs, and their relations from clinical text to support pharmacovigilance and drug safety surveillance.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Yang</LastName>
+                    <ForeName>Xi</ForeName>
+                    <Initials>X</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Health Outcomes and Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Bian</LastName>
+                    <ForeName>Jiang</ForeName>
+                    <Initials>J</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Health Outcomes and Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Gong</LastName>
+                    <ForeName>Yan</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacotherapy and Translational Research and Center for Pharmacogenomics, College of Pharmacy, University of Florida, Gainesville, FL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Hogan</LastName>
+                    <ForeName>William R</ForeName>
+                    <Initials>WR</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Health Outcomes and Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL, USA.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wu</LastName>
+                    <ForeName>Yonghui</ForeName>
+                    <Initials>Y</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Health Outcomes and Biomedical Informatics, College of Medicine, University of Florida, Gainesville, FL, USA. yonghui.wu@ufl.edu.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <GrantList CompleteYN="Y">
+                <Grant>
+                    <GrantID>UL1 TR001427</GrantID>
+                    <Acronym>TR</Acronym>
+                    <Agency>NCATS NIH HHS</Agency>
+                    <Country>United States</Country>
+                </Grant>
+            </GrantList>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+                <PublicationType UI="D052061">Research Support, N.I.H., Extramural</PublicationType>
+                <PublicationType UI="D013485">Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>New Zealand</Country>
+            <MedlineTA>Drug Saf</MedlineTA>
+            <NlmUniqueID>9002928</NlmUniqueID>
+            <ISSNLinking>0114-5916</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D064420" MajorTopicYN="N">Drug-Related Side Effects and Adverse Reactions</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000453" MajorTopicYN="Y">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D057286" MajorTopicYN="N">Electronic Health Records</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="N">standards</QualifierName>
+                <QualifierName UI="Q000639" MajorTopicYN="Y">trends</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000069550" MajorTopicYN="N">Machine Learning</DescriptorName>
+                <QualifierName UI="Q000592" MajorTopicYN="N">standards</QualifierName>
+                <QualifierName UI="Q000639" MajorTopicYN="Y">trends</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D009323" MajorTopicYN="Y">Natural Language Processing</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pmc-release">
+                <Year>2020</Year>
+                <Month>01</Month>
+                <Day>01</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>6</Month>
+                <Day>21</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30600484</ArticleId>
+            <ArticleId IdType="doi">10.1007/s40264-018-0761-0</ArticleId>
+            <ArticleId IdType="pii">10.1007/s40264-018-0761-0</ArticleId>
+            <ArticleId IdType="pmc">PMC6402874</ArticleId>
+            <ArticleId IdType="mid">NIHMS1517699</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">30600301</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>04</Month>
+            <Day>22</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1665-2681</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>Oct</Month>
+                        <Day>16</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Annals of hepatology</Title>
+                <ISOAbbreviation>Ann Hepatol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Hepatoprotective Role of Thymol in Drug-Induced Gastric Ulcer Model.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>980-991</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.5604/01.3001.0012.7198</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION AND AIM" NlmCategory="OBJECTIVE">Indo is widely one of the non-steroidal anti-inflammatory drugs and one of the common toxic effects of this drug is hepatic failure. Thymol is a monoterpene phenol with many different pharmacological activities. However, up to now its hepatoprotective effects on Indo-induced gastric ulcer model in rats have not been explored yet.</AbstractText>
+                <AbstractText Label="MATERIAL AND METHODS" NlmCategory="METHODS">Thirty five Sprague-Dawley rats were divided into seven groups: control, ulcer control (30 mg/kg Indo), Indo + reference standard (50 mg/kg Rantidine), Indo + Thymol (75, 100, 250 and 500 mg/kg) groups. 10 minutes after the induction of ulcer with Indo; Thymol was orally administered to the rats. Liver function enzymes (AST, ALT and LDH) were measured from serum samples. TOS/TAC, TNF-α and PGE2 levels, eNOS and Caspase-3 activity were assessed from tissue homogenate samples. In addition, histopathologic analysis on liver sections was performed.</AbstractText>
+                <AbstractText Label="RESULTS" NlmCategory="RESULTS">Indo significantly increased the levels of hepatic enzymes, TNF-α and eNOS, and caspase-3 activation, while decreased PGE2 levels. Furthermore, it induced oxidative stress as evidenced by elevated TOS and decreased TAC levels. However, Thymol treatment induced a significant improvement in these parameters, especially in 250 mg/kg dose. On the other hand, treatment with Thymol 500 mg/kg dramatically affected the parameters much worse than the Indo treated group.</AbstractText>
+                <AbstractText Label="CONCLUSION" NlmCategory="CONCLUSIONS">The findings of the current study demonstrated that Thymol administration significantly ameliorated liver injury due to Indo toxicity. This effect of Thymol (250 mg/kg) may be mediated by its anti-oxidative or anti-inflammatory effect, and up-regulation the synthesis of PGE2.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Geyikoglu</LastName>
+                    <ForeName>Fatime</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biology, Faculty of Science, Ataturk University, Erzurum, TURKEY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yilmaz</LastName>
+                    <ForeName>Elif Gülcan</ForeName>
+                    <Initials>EG</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biology, Faculty of Science, Ataturk University, Erzurum, TURKEY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Erol</LastName>
+                    <ForeName>Huseyin Serkan</ForeName>
+                    <Initials>HS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biochemistry, Faculty of Veterinary, Ataturk University, Erzurum, TURKEY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Koc</LastName>
+                    <ForeName>Kubra</ForeName>
+                    <Initials>K</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biology, Faculty of Science, Ataturk University, Erzurum, TURKEY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Cerig</LastName>
+                    <ForeName>Salim</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biology, Faculty of Science, Ataturk University, Erzurum, TURKEY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ozek</LastName>
+                    <ForeName>Nihal Simsek</ForeName>
+                    <Initials>NS</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biology, Faculty of Science, Ataturk University, Erzurum, TURKEY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Aysin</LastName>
+                    <ForeName>Ferhunde</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Biology, Faculty of Science, Ataturk University, Erzurum, TURKEY.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Mexico</Country>
+            <MedlineTA>Ann Hepatol</MedlineTA>
+            <NlmUniqueID>101155885</NlmUniqueID>
+            <ISSNLinking>1665-2681</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000893">Anti-Inflammatory Agents</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D000975">Antioxidants</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance UI="D014409">Tumor Necrosis Factor-alpha</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>3J50XA376E</RegistryNumber>
+                <NameOfSubstance UI="D013943">Thymol</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 1.14.13.39</RegistryNumber>
+                <NameOfSubstance UI="D052250">Nitric Oxide Synthase Type III</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 1.14.13.39</RegistryNumber>
+                <NameOfSubstance UI="C496316">Nos3 protein, rat</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 3.4.22.-</RegistryNumber>
+                <NameOfSubstance UI="C505410">Casp3 protein, rat</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 3.4.22.-</RegistryNumber>
+                <NameOfSubstance UI="D053148">Caspase 3</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>K7Q1JQR04M</RegistryNumber>
+                <NameOfSubstance UI="D015232">Dinoprostone</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>XXE1CET956</RegistryNumber>
+                <NameOfSubstance UI="D007213">Indomethacin</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000818" MajorTopicYN="N">Animals</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000893" MajorTopicYN="N">Anti-Inflammatory Agents</DescriptorName>
+                <QualifierName UI="Q000494" MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000975" MajorTopicYN="N">Antioxidants</DescriptorName>
+                <QualifierName UI="Q000494" MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017209" MajorTopicYN="N">Apoptosis</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D053148" MajorTopicYN="N">Caspase 3</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D056486" MajorTopicYN="N">Chemical and Drug Induced Liver Injury</DescriptorName>
+                <QualifierName UI="Q000209" MajorTopicYN="N">etiology</QualifierName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+                <QualifierName UI="Q000517" MajorTopicYN="Y">prevention &amp; control</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019610" MajorTopicYN="N">Cytoprotection</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015232" MajorTopicYN="N">Dinoprostone</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D007213" MajorTopicYN="Y">Indomethacin</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008099" MajorTopicYN="N">Liver</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="Y">drug effects</QualifierName>
+                <QualifierName UI="Q000201" MajorTopicYN="N">enzymology</QualifierName>
+                <QualifierName UI="Q000473" MajorTopicYN="N">pathology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D052250" MajorTopicYN="N">Nitric Oxide Synthase Type III</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018384" MajorTopicYN="N">Oxidative Stress</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D017207" MajorTopicYN="N">Rats, Sprague-Dawley</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015398" MajorTopicYN="N">Signal Transduction</DescriptorName>
+                <QualifierName UI="Q000187" MajorTopicYN="N">drug effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013276" MajorTopicYN="N">Stomach Ulcer</DescriptorName>
+                <QualifierName UI="Q000139" MajorTopicYN="Y">chemically induced</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D013943" MajorTopicYN="N">Thymol</DescriptorName>
+                <QualifierName UI="Q000494" MajorTopicYN="Y">pharmacology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D014409" MajorTopicYN="N">Tumor Necrosis Factor-alpha</DescriptorName>
+                <QualifierName UI="Q000378" MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="N">Apoptosis</Keyword>
+            <Keyword MajorTopicYN="N">Cytokines</Keyword>
+            <Keyword MajorTopicYN="N">Histopathology</Keyword>
+            <Keyword MajorTopicYN="N">Oxidative stress</Keyword>
+            <Keyword MajorTopicYN="N">Prostaglandin E2</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>4</Month>
+                <Day>23</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30600301</ArticleId>
+            <ArticleId IdType="doi">10.5604/01.3001.0012.7198</ArticleId>
+            <ArticleId IdType="pii">01.3001.0012.7198</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+<PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+        <PMID Version="1">30600298</PMID>
+        <DateCompleted>
+            <Year>2019</Year>
+            <Month>11</Month>
+            <Day>14</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2019</Year>
+            <Month>11</Month>
+            <Day>14</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1665-2681</ISSN>
+                <JournalIssue CitedMedium="Internet">
+                    <Volume>17</Volume>
+                    <Issue>6</Issue>
+                    <PubDate>
+                        <Year>2018</Year>
+                        <Month>10</Month>
+                        <Day>16</Day>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Annals of hepatology</Title>
+                <ISOAbbreviation>Ann Hepatol</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Drug-Drug Interactions in Hepatitis Patients: Do these Interactions Matter in Clinical Perspectives?</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1001-1011</MedlinePgn>
+            </Pagination>
+            <ELocationID EIdType="doi" ValidYN="Y">10.5604/01.3001.0012.7200</ELocationID>
+            <Abstract>
+                <AbstractText Label="INTRODUCTION AND AIM">Hepatitis patients usually present with comorbidities and polypharmacy which increases risk of potential drug-drug interactions (pDDIs). We explored frequency, levels, predictors, and clinical relevance of pDDIs in hospitalized hepatitis patients.</AbstractText>
+                <AbstractText Label="MATERIAL AND METHODS">Retrospective cohort study was used. Clinical profiles of 413 hepatitis patients were reviewed for pDDIs using Micromedex-DrugReax. Frequency, levels and clinical relevance of pDDIs were reported. Logistic regression analysis was used to calculate odds-ratios for predictors.</AbstractText>
+                <AbstractText Label="RESULTS">Of total 413 patients, pDDIs were reported in 55.2%. Major-pDDIs were found in 35% patients. Total 660 pDDIs were identified, of which, 304 (46%) were of major-severity and 299 (45%) of moderateseverity. Patient's profiles of top-10 major-pDDIs were presented with signs/symptoms such as fever, hepatomegaly, anorexia, jaundice, hypertension, tachycardia, bradycardia, &amp;amp; pedal edema; and abnormalities in labs such as electrolytes-level, alanine aminotransferase, blood urea nitrogen, bilirubin-level, &amp;amp; serum creatinine. Significant association was observed for the presence of pDDIs with &amp;gt; 9 prescribed medicines (p &amp;lt; 0.001), hospitalization of &amp;gt; 5 days (p = 0.03), and stroke as comorbidity (p = 0.05). Moreover, odds of exposure to major-pDDIs were significantly higher in patients taking &amp;gt; 9 prescribed medicines (p &amp;lt; 0.001), hospitalization of &amp;gt; 5 days (p = 0.002), and stroke as comorbidity (p = 0.002).</AbstractText>
+                <AbstractText Label="CONCLUSION">We observed hepatitis patients presented with a considerable number of clinically relevant pDDIs. Attention should be given to widespread major-pDDIs and their potential adverse outcomes. Clinically relevant parameters, such as labs and signs/symptoms should be monitored particularly in high risk patients having polypharmacy, prolong hospitalization, and stroke as comorbidity.</AbstractText>
+            </Abstract>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Noor</LastName>
+                    <ForeName>Sidra</ForeName>
+                    <Initials>S</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Peshawar, Khyber Pakhtunkhwa, Pakistan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ismail</LastName>
+                    <ForeName>Mohammad</ForeName>
+                    <Initials>M</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Peshawar, Khyber Pakhtunkhwa, Pakistan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Haider</LastName>
+                    <ForeName>Iqbal</ForeName>
+                    <Initials>I</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Medicine, Medical Teaching Institute, Khyber Teaching Hospital, Peshawar, Pakistan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Khadim</LastName>
+                    <ForeName>Faiza</ForeName>
+                    <Initials>F</Initials>
+                    <AffiliationInfo>
+                        <Affiliation>Department of Pharmacy, University of Peshawar, Khyber Pakhtunkhwa, Pakistan.</Affiliation>
+                    </AffiliationInfo>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType UI="D016428">Journal Article</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>Mexico</Country>
+            <MedlineTA>Ann Hepatol</MedlineTA>
+            <NlmUniqueID>101155885</NlmUniqueID>
+            <ISSNLinking>1665-2681</ISSNLinking>
+        </MedlineJournalInfo>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName UI="D000328" MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000367" MajorTopicYN="N">Age Factors</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D000368" MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015331" MajorTopicYN="N">Cohort Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016208" MajorTopicYN="N">Databases, Factual</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D003906" MajorTopicYN="N">Developing Countries</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004347" MajorTopicYN="Y">Drug Interactions</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D004359" MajorTopicYN="N">Drug Therapy, Combination</DescriptorName>
+                <QualifierName UI="Q000009" MajorTopicYN="Y">adverse effects</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D064420" MajorTopicYN="N">Drug-Related Side Effects and Adverse Reactions</DescriptorName>
+                <QualifierName UI="Q000453" MajorTopicYN="Y">epidemiology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D005260" MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006525" MajorTopicYN="N">Hepatitis, Viral, Human</DescriptorName>
+                <QualifierName UI="Q000175" MajorTopicYN="N">diagnosis</QualifierName>
+                <QualifierName UI="Q000188" MajorTopicYN="Y">drug therapy</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006784" MajorTopicYN="N">Hospitals, Teaching</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D006801" MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D015994" MajorTopicYN="N">Incidence</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D016015" MajorTopicYN="N">Logistic Models</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008297" MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D008875" MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D010154" MajorTopicYN="N" Type="Geographic">Pakistan</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D019338" MajorTopicYN="Y">Polypharmacy</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012189" MajorTopicYN="N">Retrospective Studies</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D018570" MajorTopicYN="N">Risk Assessment</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName UI="D012737" MajorTopicYN="N">Sex Factors</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <KeywordList Owner="NOTNLM">
+            <Keyword MajorTopicYN="Y">Clinical pharmacist</Keyword>
+            <Keyword MajorTopicYN="Y">Drug interaction screening</Keyword>
+            <Keyword MajorTopicYN="Y">Patient safety</Keyword>
+            <Keyword MajorTopicYN="Y">Polypharmacy</Keyword>
+            <Keyword MajorTopicYN="Y">Potential drug-drug interactions</Keyword>
+        </KeywordList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2019</Year>
+                <Month>1</Month>
+                <Day>3</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2019</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+                <Hour>6</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pubmed">30600298</ArticleId>
+            <ArticleId IdType="doi">10.5604/01.3001.0012.7200</ArticleId>
+            <ArticleId IdType="pii">01.3001.0012.7200</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+</PubmedArticleSet>
