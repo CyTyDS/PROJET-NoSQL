@@ -1,20 +1,23 @@
 Collection 1
+
 let $ade := collection("pubmed_result_ade.xml")
 for $article in $ade//PubmedArticle
 return 
-<article>
+<Article>
   {$article//PMID}
   <MeSHDescriptor>
   {$article//MeshHeadingList/MeshHeading/DescriptorName/string()}
   </MeSHDescriptor>
-</article>
+</Article>
+
+
 
 Collection 2
 
 let $ade := collection("pubmed_result_ade.xml")
 for $article in $ade//PubmedArticle
 return 
-<article>
+<Article>
   {$article//PMID}
   {
     for $mesh in $article//MeshHeading
@@ -32,32 +35,87 @@ return
             </MeSHDescriptor-Qualifier>
         )
   }
-</article>
+</Article>
+
 
 
 Collection 3
+
 let $ade := collection("pubmed_result_ade.xml")
 for $article in $ade//PubmedArticle
 return 
-<article>
+<Article>
   {$article//PMID}
   {$article//Title}
   <Abstract>
     {if ($article//Abstract/AbstractText) then (
           $article//Abstract/AbstractText/string()
         ) else (
-         $article//Abstract/string()
+          $article//Abstract/string()
         )
       }
   </Abstract>
-</article>
-  
+</Article>
 
 
 
 Collection 4
 
+let $ade := collection("pubmed_result_ade.xml")
+
+for $article in $ade//PubmedArticle
+return 
+<Article>
+  {$article//PMID}
+  {$article//Title}
+  <Abstract>
+    {if ($article//Abstract/AbstractText) then (
+          $article//Abstract/AbstractText/string()
+        ) else (
+          $article//Abstract/string()
+        )
+      }
+  </Abstract>
+  <MeSHDescriptor>
+    {$article//MeshHeadingList/MeshHeading/DescriptorName/string()}
+  </MeSHDescriptor>
+</Article>
+
 
 
 Collection 5
-  
+
+let $ade := collection("pubmed_result_ade.xml")
+
+for $article in $ade//PubmedArticle
+return 
+<Article>
+  {$article//PMID}
+  {$article//Title}
+  <Abstract>
+    {if ($article//Abstract/AbstractText) then (
+          $article//Abstract/AbstractText/string()
+        ) else (
+          $article//Abstract/string()
+        )
+    }
+  </Abstract>
+    {
+      for $mesh in $article//MeshHeading
+      return 
+          
+          if (not($mesh//QualifierName)) then (
+            <MeSHDescriptor-Qualifier>
+              {$mesh//DescriptorName/string()}
+            </MeSHDescriptor-Qualifier>
+          ) else (
+            for $qual in $mesh//QualifierName
+            return 
+              <MeSHDescriptor-Qualifier>
+                {$mesh//DescriptorName/string() || " / " || $qual/string()}
+              </MeSHDescriptor-Qualifier>
+          )
+    }
+</Article>
+
+
