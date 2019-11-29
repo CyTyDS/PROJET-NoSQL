@@ -1,0 +1,3 @@
+https://www.freeformatter.com/xml-to-json-converter.html
+
+mongoimport --db projectBDD --collection vanilla --file .\pubmed_result_ade.json --jsonArray
