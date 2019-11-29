@@ -1,5 +1,65 @@
-create table wilkiben (
+-- Supprimer au préalable le doctype du fichier à insérer
+
+create table NoSQL_FDD (
 filename VARCHAR2(32) primary key,
 xml xmltype
 );
 
+create or replace directory xml_dir as 'C:\app\CyTy\xml';
+
+insert into NoSQL_FDD values (
+	'pubmed_result_ade.xml',
+	XMLType(BFILENAME('XML_DIR', 'pubmed_result_ade.xml'),
+	nls_charset_id('AL32UTF8')));
+	
+select extract(xml, '//PMID') from NoSQL_FDD;
+
+
+
+1)
+select XMLQuery('
+	for $article in //PubmedArticle
+	return 
+	<Article>
+	  {$article//PMID}
+	  <MeSHDescriptor>
+	  {$article//MeshHeadingList/MeshHeading/DescriptorName/string()}
+	  </MeSHDescriptor>
+	</Article>
+	'
+	passing xml returning content)
+from NoSQL_FDD;
+
+
+
+2)
+select XMLQuery('
+	
+	'
+	passing xml returning content)
+from NoSQL_FDD;
+
+
+
+3)
+select XMLQuery('
+	
+	'
+	passing xml returning content)
+from NoSQL_FDD;
+
+
+4)
+select XMLQuery('
+	
+	'
+	passing xml returning content)
+from NoSQL_FDD;
+
+
+5)
+select XMLQuery('
+	
+	'
+	passing xml returning content)
+from NoSQL_FDD;
