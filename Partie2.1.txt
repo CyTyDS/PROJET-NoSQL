@@ -1,3 +1,88 @@
 https://www.freeformatter.com/xml-to-json-converter.html
-
+https://docs.mongodb.com/manual/reference/operator/aggregation/out/#pipe._S_out
 mongoimport --db projectBDD --collection vanilla --file .\pubmed_result_ade.json --jsonArray
+
+use projectBDD
+
+1)
+db.vanilla.aggregate(
+ [
+  {
+	$project: {
+		_id : 0,
+		pmid : "$MedlineCitation.PMID.#text",
+		MeSH : "$MedlineCitation.MeshHeadingList.DescriptorName.#text"
+	}
+   }
+ ]
+).pretty()
+
+
+2)
+ db.vanilla.find({},{"MedlineCitation.PMID.#text":1, _id : 0, "MedlineCitation.MeshHeadingList.DescriptorName.#text" : 1, "MedlineCitation.MeshHeadingList.QualifierName.#text":1}).pretty()
+db.vanilla.aggregate( [ { $project : {MeSH : { $concatArrays : ["$MedlineCitation.MeshHeadingList.DescriptorName.#text","/","$MedlineCitation.MeshHeadingList.QualifierName.#text"]}}}])
+https://docs.mongodb.com/manual/reference/operator/aggregation/reduce/
+
+
+3)
+ db.vanilla.find({},{"MedlineCitation.PMID.#text":1, _id : 0, "MedlineCitation.Article.Journal.Title" : 1, "MedlineCitation.Article.Abstract.#text": 1}).pretty()
+need formating
+4)
+ db.vanilla.find({},{"MedlineCitation.PMID.#text":1, _id : 0,"MedlineCitation.MeshHeadingList.DescriptorName.#text" : 1 ,"MedlineCitation.Article.Journal.Title" : 1, "MedlineCitation.Article.Abstract.#text": 1}).pretty()
+
+need formating
+
+5)
+
+
+6)
+a)
+b)
+c)
+d)
+e)
+
+
+7)
+
+
+db.vanilla.aggregate(
+ [
+  {
+	$project: {
+		_id : 0,
+		pmid : "$MedlineCitation.PMID.#text",
+		MeSH :  { $concat : 
+		"$MedlineCitation.MeshHeadingList.DescriptorName.#text" , "/" ,
+		"$MedlineCitation.MeshHeadingList.QualifierName.#text"}
+		}
+	}
+   }
+ ]
+).pretty()
+
+
+
+
+
+
+
+
+
+
+
+
+
+db.vanilla.aggregate(
+ [
+  {
+	$project: {
+		_id : 0,
+		pmid : "$MedlineCitation.PMID.#text",
+		MeSH : "$MedlineCitation.MeshHeadingList.DescriptorName.#text"
+	}
+   }
+ ]
+)
+		
+  
