@@ -15,6 +15,9 @@ insert into NoSQL_FDD values (
 select extract(xml, '//PMID') from NoSQL_FDD;
 
 
+set long 1000000;
+set pagesize 100;
+
 
 1)
 select XMLQuery('
@@ -34,7 +37,26 @@ from NoSQL_FDD;
 
 2)
 select XMLQuery('
-	
+	for $article in //PubmedArticle
+	return 
+	<Article>
+	  {$article//PMID}
+	  {
+		for $mesh in $article//MeshHeading
+		return 
+			(if (not($mesh//QualifierName)) then (
+			  <MeSHDescriptor-Qualifier>
+				{$mesh//DescriptorName/string()}
+			  </MeSHDescriptor-Qualifier>
+			) else (
+			  for $qual in $mesh//QualifierName
+			  return 
+				<MeSHDescriptor-Qualifier>
+				  {concat(concat($mesh//DescriptorName/string(), " / "), $qual/string())}
+				</MeSHDescriptor-Qualifier>
+			))
+	  }
+	</Article>
 	'
 	passing xml returning content)
 from NoSQL_FDD;
@@ -43,7 +65,20 @@ from NoSQL_FDD;
 
 3)
 select XMLQuery('
-	
+	for $article in //PubmedArticle
+	return 
+	<Article>
+	  {$article//PMID}
+	  {$article//Title}
+	  <Abstract>
+		{if ($article//Abstract/AbstractText) then (
+			  $article//Abstract/AbstractText/string()
+			) else (
+			  $article//Abstract/string()
+			)
+		  }
+	  </Abstract>
+	</Article>
 	'
 	passing xml returning content)
 from NoSQL_FDD;
@@ -51,7 +86,23 @@ from NoSQL_FDD;
 
 4)
 select XMLQuery('
-	
+	for $article in //PubmedArticle
+	return 
+	<Article>
+	  {$article//PMID}
+	  {$article//Title}
+	  <Abstract>
+		{if ($article//Abstract/AbstractText) then (
+			  $article//Abstract/AbstractText/string()
+			) else (
+			  $article//Abstract/string()
+			)
+		  }
+	  </Abstract>
+	  <MeSHDescriptor>
+		{$article//MeshHeadingList/MeshHeading/DescriptorName/string()}
+	  </MeSHDescriptor>
+	</Article>
 	'
 	passing xml returning content)
 from NoSQL_FDD;
@@ -59,7 +110,35 @@ from NoSQL_FDD;
 
 5)
 select XMLQuery('
-	
+	for $article in //PubmedArticle
+	return 
+	<Article>
+	  {$article//PMID}
+	  {$article//Title}
+	  <Abstract>
+		{if ($article//Abstract/AbstractText) then (
+			  $article//Abstract/AbstractText/string()
+			) else (
+			  $article//Abstract/string()
+			)
+		}
+	  </Abstract>
+		{
+		  for $mesh in $article//MeshHeading
+		  return 
+			  (if (not($mesh//QualifierName)) then (
+				<MeSHDescriptor-Qualifier>
+				  {$mesh//DescriptorName/string()}
+				</MeSHDescriptor-Qualifier>
+			  ) else (
+				for $qual in $mesh//QualifierName
+				return 
+				  <MeSHDescriptor-Qualifier>
+					{concat(concat($mesh//DescriptorName/string(), " / "), $qual/string())}
+				  </MeSHDescriptor-Qualifier>
+			  ))
+		}
+	</Article>
 	'
 	passing xml returning content)
 from NoSQL_FDD;
