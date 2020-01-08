@@ -13,26 +13,82 @@ db.vanilla.aggregate(
 		pmid : "$MedlineCitation.PMID.#text",
 		MeSH : "$MedlineCitation.MeshHeadingList.DescriptorName.#text"
 	}
-   }
+   }, {$out : "NAME"}
  ]
 ).pretty()
 
 
 2)
- db.vanilla.find({},{"MedlineCitation.PMID.#text":1, _id : 0, "MedlineCitation.MeshHeadingList.DescriptorName.#text" : 1, "MedlineCitation.MeshHeadingList.QualifierName.#text":1}).pretty()
-db.vanilla.aggregate( [ { $project : {MeSH : { $concatArrays : ["$MedlineCitation.MeshHeadingList.DescriptorName.#text","/","$MedlineCitation.MeshHeadingList.QualifierName.#text"]}}}])
-https://docs.mongodb.com/manual/reference/operator/aggregation/reduce/
+db.vanilla.aggregate(
+ [
+  {
+	$project: {
+		_id : 0,
+		pmid : "$MedlineCitation.PMID.#text",
+		MeSH : { $concatArrays : [
+		"$MedlineCitation.MeshHeadingList.DescriptorName.#text",
+		"$MedlineCitation.MeshHeadingList.QualifierName.#text"
+		]}
+		
+	}
+   },{$out : "NAME"}
+ ]
+).pretty()
+
+
+
 
 
 3)
- db.vanilla.find({},{"MedlineCitation.PMID.#text":1, _id : 0, "MedlineCitation.Article.Journal.Title" : 1, "MedlineCitation.Article.Abstract.#text": 1}).pretty()
-need formating
-4)
- db.vanilla.find({},{"MedlineCitation.PMID.#text":1, _id : 0,"MedlineCitation.MeshHeadingList.DescriptorName.#text" : 1 ,"MedlineCitation.Article.Journal.Title" : 1, "MedlineCitation.Article.Abstract.#text": 1}).pretty()
+db.vanilla.aggregate(
+ [
+  {
+	$project: {
+		_id : 0,
+		pmid : "$MedlineCitation.PMID.#text",
+		title : "$MedlineCitation.Article.Journal.Title",
+		text : "$MedlineCitation.Article.Abstract.#text"
+		
+	}
+   },{$out : "NAME"}
+ ]
+).pretty()
 
-need formating
+4)
+db.vanilla.aggregate(
+ [
+  {
+	$project: {
+		_id : 0,
+		pmid : "$MedlineCitation.PMID.#text",
+		MeSH : "$MedlineCitation.MeshHeadingList.DescriptorName.#text",
+		title : "$MedlineCitation.Article.Journal.Title",
+		text : "$MedlineCitation.Article.Abstract.#text"
+		
+	}
+   },{$out : "NAME"}
+ ]
+).pretty()
 
 5)
+
+db.vanilla.aggregate(
+ [
+  {
+	$project: {
+		_id : 0,
+		pmid : "$MedlineCitation.PMID.#text",
+		MeSH : { $concatArrays : [
+		"$MedlineCitation.MeshHeadingList.DescriptorName.#text",
+		"$MedlineCitation.MeshHeadingList.QualifierName.#text"
+		]},
+		title : "$MedlineCitation.Article.Journal.Title",
+		text : "$MedlineCitation.Article.Abstract.#text"
+		
+	}
+   },{$out : "NAME"}
+ ]
+).pretty()
 
 
 6)
@@ -46,43 +102,20 @@ e)
 7)
 
 
-db.vanilla.aggregate(
- [
-  {
-	$project: {
-		_id : 0,
-		pmid : "$MedlineCitation.PMID.#text",
-		MeSH :  { $concat : 
-		"$MedlineCitation.MeshHeadingList.DescriptorName.#text" , "/" ,
-		"$MedlineCitation.MeshHeadingList.QualifierName.#text"}
-		}
-	}
-   }
- ]
-).pretty()
-
-
-
-
-
-
-
-
-
-
-
-
-
-db.vanilla.aggregate(
- [
-  {
-	$project: {
-		_id : 0,
-		pmid : "$MedlineCitation.PMID.#text",
-		MeSH : "$MedlineCitation.MeshHeadingList.DescriptorName.#text"
-	}
-   }
- ]
+db.arrayconcat.aggregate(
+  [
+    {
+      $project: {
+        "collapsed": {
+          $reduce: {
+            input: "$arr",
+            initialValue: [ ],
+            in: { $concatArrays: [ "$$value", "$$this" ] }
+          }
+        }
+      }
+    }
+  ]
 )
 		
   
