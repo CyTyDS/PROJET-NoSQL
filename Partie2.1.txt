@@ -13,7 +13,7 @@ db.vanilla.aggregate(
 		pmid : "$MedlineCitation.PMID.#text",
 		MeSH : "$MedlineCitation.MeshHeadingList.DescriptorName.#text"
 	}
-   }, {$out : "NAME"}
+   }, {$out : "PMIDMeSHDescriptor"}
  ]
 ).pretty()
 
@@ -31,7 +31,7 @@ db.vanilla.aggregate(
 		]}
 		
 	}
-   },{$out : "NAME"}
+   },{$out : "PMIDMeSHDescriptorQualifier"}
  ]
 ).pretty()
 
@@ -50,7 +50,7 @@ db.vanilla.aggregate(
 		text : "$MedlineCitation.Article.Abstract.#text"
 		
 	}
-   },{$out : "NAME"}
+   },{$out : "PMIDTitleAbstract"}
  ]
 ).pretty()
 
@@ -66,7 +66,7 @@ db.vanilla.aggregate(
 		text : "$MedlineCitation.Article.Abstract.#text"
 		
 	}
-   },{$out : "NAME"}
+   },{$out : "PMIDTitleAbstractMeSHDescriptor"}
  ]
 ).pretty()
 
@@ -86,12 +86,25 @@ db.vanilla.aggregate(
 		text : "$MedlineCitation.Article.Abstract.#text"
 		
 	}
-   },{$out : "NAME"}
+   },{$out : "PMIDTitleAbstractMeSHDescriptorQualifier"}
  ]
 ).pretty()
 
 
 6)
+db.PMIDMeSHDescriptor.mapReduce(
+function() {emit(this.pmid,this.MeSH);},
+function(key,value) {return value;},
+{
+query : { pmid : 1, MeSH : 1,_id:0 },
+out : "test"
+}
+)
+
+db.PMIDMeSHDescriptor.aggregate([
+   { $group: { MeSH :"$MeSH", total: { $sum: "$amount" } } }
+])
+
 a)
 b)
 c)
@@ -100,22 +113,36 @@ e)
 
 
 7)
+a)
+b)
+c)
+d)
+e)
 
+{
+MSH1 
+   {PMID 1,
+    [MSH2, MSH5, MSH8]},
+ MSH2
+   [{PMID1,
+   [MSH1, MSH5, MSH8]},
+    {PMID2,
+    [MSH3, MSH5, MSH8]}],
+MSH3
+  {PMID2,
+  [MSH2, MSH5, MSH8]},
+MSH5
+  [{PMID 1,
+   [MSH1, MSH2, MSH8]},
+   {PMID 2,
+   [MSH2, MSH3, MSH8]},
+   {PMID 3, {MSH8}],
+MSH8
+  [{PMID1,
+   [MSH1, MSH2, MSH5]},
+  {PMID2,
+   [MSH2, MSH3, MSH5]},
+  { PMID3,{MSH5}}]
+}
 
-db.arrayconcat.aggregate(
-  [
-    {
-      $project: {
-        "collapsed": {
-          $reduce: {
-            input: "$arr",
-            initialValue: [ ],
-            in: { $concatArrays: [ "$$value", "$$this" ] }
-          }
-        }
-      }
-    }
-  ]
-)
-		
   
