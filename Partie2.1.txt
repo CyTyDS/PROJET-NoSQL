@@ -92,18 +92,43 @@ db.vanilla.aggregate(
 
 
 6)
-db.PMIDMeSHDescriptor.mapReduce(
-function() {emit(this.pmid,this.MeSH);},
-function(key,value) {return value;},
-{
-query : { pmid : 1, MeSH : 1,_id:0 },
-out : "test"
-}
-)
 
-db.PMIDMeSHDescriptor.aggregate([
-   { $group: { MeSH :"$MeSH", total: { $sum: "$amount" } } }
-])
+// mapFunction = function() {
+// 	for(var i = 0; i< this.articles.article.length; ++i) {
+// 		for (var j = 0;j < this.articles.article[i].descriptors.MeshHeading.length; ++j) {
+// 			emit({
+// 				"UI": this.articles.article[i].descriptors.MeshHeading[j].DescriptorName['UI'],
+// 				"text": this.articles.article[i].descriptors.MeshHeading[j].DescriptorName['content']
+// 			},
+// 			{
+// 				pmid: this.articles.article[i].PMID,
+// 				data: this.articles.article[i].descriptors.MeshHeading,
+// 				isAlone : 1
+// 			}
+// 			);
+// 		}
+// 	}
+// }
+
+// reduceFunction = function(key, values) {
+// 	var result = [];
+// 	for(var i = 0; i < values.length; ++i) {
+// 		var temp = {pmid: vamies[i].pmid, otherMesh: [] };
+// 		for (var j = 0;j < values[i].data.length; j++) {
+// 			var mesh = values[i].data[j].DescriptorName;
+// 			if (key['text'] != mesh['content']) {
+// 				temp.otherMesh.push({'UI': mesh['UI'], value : mesh['content']});
+// 			}
+// 		}
+// 		result.push(temp);
+// 	}
+// 	return {result}
+// }
+
+// db.vanilla.mapReduce(mapFunction,reduceFunction {
+// 	out: {inline: 1} ,
+// });
+
 
 a)
 b)
@@ -119,6 +144,8 @@ c)
 d)
 e)
 
+
+expected for question 6/7
 {
 MSH1 
    {PMID 1,
